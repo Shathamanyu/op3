@@ -12,7 +12,10 @@
         var q3 = [" html", " css"," js", " react", " angular"];
       var q31 = [];
       for ( i in q3){
-        if ( (i+1)%2 != 0){
+        if ( i == 0){
+            q31.push(q3[i].toUpperCase());
+        }
+        if ( (i)%2 != 0 ){
           q31.push(q3[i].toUpperCase());
         }
       }
