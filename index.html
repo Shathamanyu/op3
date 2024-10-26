@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output-2</title>
+</head>
+<body>
+    <p>Output :</p>
+    <marquee behavior="" direction=""><p id="dem1"></p></marquee>
+    <script>
+        var q3 = [" html", " css"," js", " react", " angular"];
+      var q31 = [];
+      for ( i in q3){
+        if ( (i+1)%2 != 0){
+          q31.push(q3[i].toUpperCase());
+        }
+      }
+      console.log(q31);
+      document.getElementById("dem1").innerHTML = q31;
+    </script>
+    
+</body>
+</html>
